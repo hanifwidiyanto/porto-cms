@@ -25,27 +25,27 @@ function Sidebar() {
         </div>
         <ul className="font-mulish flex flex-col gap-2 text-lg text-slate-950">
           <Link href="/profile">
-            <li className="font-medium hover:font-bold duration-300 cursor-pointer">
+            <li className="font-medium hover:font-bold duration-300 cursor-pointer w-fit">
               profile
             </li>
           </Link>
           <Link href="/portofolio">
-            <li className="font-medium hover:font-bold duration-300 cursor-pointer">
+            <li className="font-medium hover:font-bold duration-300 cursor-pointer w-fit">
               portofolio
             </li>
           </Link>
           <Link href="/blog">
-            <li className="font-medium hover:font-bold duration-300 cursor-pointer">
+            <li className="font-medium hover:font-bold duration-300 cursor-pointer w-fit">
               blog
             </li>
           </Link>
           <Link href="/visitor">
-            <li className="font-medium hover:font-bold duration-300 cursor-pointer">
+            <li className="font-medium hover:font-bold duration-300 cursor-pointer w-fit">
               visitor
             </li>
           </Link>
           <Link href="/users">
-            <li className="font-medium hover:font-bold duration-300 cursor-pointer">
+            <li className="font-medium hover:font-bold duration-300 cursor-pointer w-fit">
               users
             </li>
           </Link>
