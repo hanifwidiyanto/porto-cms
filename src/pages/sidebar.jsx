@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 function Sidebar() {
@@ -23,14 +24,34 @@ function Sidebar() {
           </span>
         </div>
         <ul className="font-mulish flex flex-col gap-2 text-lg text-slate-950">
-            <li className="font-medium hover:font-bold duration-300 cursor-pointer">profile</li>
-            <li className="font-medium hover:font-bold duration-300 cursor-pointer">portofolio</li>
-            <li className="font-medium hover:font-bold duration-300 cursor-pointer">blogs</li>
-            <li className="font-medium hover:font-bold duration-300 cursor-pointer">visitors</li>
-            <li className="font-medium hover:font-bold duration-300 cursor-pointer">users</li>
+          <Link href="/profile">
+            <li className="font-medium hover:font-bold duration-300 cursor-pointer">
+              profile
+            </li>
+          </Link>
+          <Link href="/portofolio">
+            <li className="font-medium hover:font-bold duration-300 cursor-pointer">
+              portofolio
+            </li>
+          </Link>
+          <Link href="/blog">
+            <li className="font-medium hover:font-bold duration-300 cursor-pointer">
+              blog
+            </li>
+          </Link>
+          <Link href="/visitor">
+            <li className="font-medium hover:font-bold duration-300 cursor-pointer">
+              visitor
+            </li>
+          </Link>
+          <Link href="/users">
+            <li className="font-medium hover:font-bold duration-300 cursor-pointer">
+              users
+            </li>
+          </Link>
         </ul>
         <div className="cursor-pointer font-mulish hover:font-bold font-medium">
-            logout
+          logout
         </div>
       </div>
     </nav>
