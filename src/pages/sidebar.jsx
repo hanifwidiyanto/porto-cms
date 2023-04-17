@@ -29,7 +29,7 @@ function Sidebar() {
             <li className="font-medium hover:font-bold duration-300 cursor-pointer">visitors</li>
             <li className="font-medium hover:font-bold duration-300 cursor-pointer">users</li>
         </ul>
-        <div className="cursor-pointer">
+        <div className="cursor-pointer font-mulish hover:font-bold font-medium">
             logout
         </div>
       </div>
